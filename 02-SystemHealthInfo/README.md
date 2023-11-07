@@ -11,12 +11,12 @@ It will also install Python3, and the python package psutil - a library used to 
 
 ## With a container:
 **Requires Docker <br>
-change working directory to 02-SystemHealthInfo
-`docker-compose up --build`
+change working directory to 02-SystemHealthInfo <br>
+`docker-compose up --build` <br>
 
 ## Without a container:
 **Requires Python is installed <br>
-change working directory to 02-SystemHealthInfo\scripts
-`pip install psutil`
-`python SystemHealth.py`
+change working directory to 02-SystemHealthInfo\scripts <br>
+`pip install psutil` <br>
+`python SystemHealth.py` <br>
 
