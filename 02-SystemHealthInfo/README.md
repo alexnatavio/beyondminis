@@ -4,10 +4,11 @@ The script is designed to accomplish this by defining a function to fetch each m
 The information will be displayed in the CLI
 
 #
-included are the files that will spin a Docker container running the latest image from Debian
+Included are files that will spin a Docker container running the latest image from Debian
 It will also install Python3, and the python package psutil - a library used to retrieve information on running processes and system utilization
 
-# Steps:
+Steps:
+#
 # With a container:
 **Requires Docker
 change working directory to 02-SystemHealthInfo
