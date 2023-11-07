@@ -1,6 +1,6 @@
 # About:
-This second mini-project is designed to display system health information, specifically CPU usage, memory usage, disk usage, active users, and active processes <br>
-The script is designed to accomplish this by defining a function to fetch each measure, then a main function that calls all of these along with assigning the proper units for comprehension <br>
+This second mini-project is designed to display system health information, specifically CPU usage, memory usage, disk usage, active users, and active processes.
+The script is designed to accomplish this by defining a function to fetch each measure, then a main function that calls all of these along with assigning the proper units for comprehension.
 The information will be displayed in the CLI <br>
 <br>
 
