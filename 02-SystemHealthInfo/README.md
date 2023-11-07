@@ -15,7 +15,7 @@ change working directory to 02-SystemHealthInfo <br>
 `docker-compose up --build` <br>
 
 ## Without a container:
-**Requires Python is installed <br>
+**Requires Python installed <br>
 change working directory to 02-SystemHealthInfo\scripts <br>
 `pip install psutil` <br>
 `python SystemHealth.py` <br>
