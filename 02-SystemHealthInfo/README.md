@@ -7,15 +7,15 @@ The information will be displayed in the CLI
 Included are files that will spin a Docker container running the latest image from Debian
 It will also install Python3, and the python package psutil - a library used to retrieve information on running processes and system utilization
 
-Steps:
-#
+# Steps:
+
 # With a container:
-**Requires Docker
+**Requires Docker <br>
 change working directory to 02-SystemHealthInfo
 `docker-compose up --build`
 
 # Without a container:
-**Requires Python is installed
+**Requires Python is installed <br>
 change working directory to 02-SystemHealthInfo\scripts
 `pip install psutil`
 `python SystemHealth.py`
