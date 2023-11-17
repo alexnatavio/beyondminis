@@ -24,5 +24,5 @@ another way to do this is with `ansible-playbook -i inventory.ini docker-playboo
 
 
 ## Troubleshooting
-Initially when I started the vm it set my working directory to `/home` and I had to `cd ..` to get to the root directory before I could `cd vagrant` for the correct shared folder location 
+Initially when I started the vm it set my working directory to `/home` and I had to `cd /` to get to the root directory before I could `cd vagrant` for the correct shared folder location 
 to access the playbook and inventory.  Hopefully it behaves itself otherwise `sudo find / -type d -name "vagrant"` will also help locate the shared folder that contains the required files to run the playbook.
