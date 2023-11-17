@@ -6,8 +6,8 @@ The information will be displayed in the CLI <br>
 
 
 ## Running the script:
-*Requires Python installed <br>
-*Requires Pip (Python package installer) <br>
+* Requires Python installed <br>
+* Requires Pip (Python package installer) <br>
 
 Clone the repository <br>
 change working directory to 02-SystemHealthInfo\scripts <br>
@@ -26,6 +26,6 @@ If Python and Pip are not installed <br>
 To ensure this would work on a Debian-based platform it was tested using a Docker container with a Debian-based image <br>
 Following the steps below will create the container, install all necessary requirements, execute the script to show system health information, and then exit the container. <br>
 
-*Requires Docker <br>
+* Requires Docker <br>
 change working directory to 02-SystemHealthInfo <br>
 `docker-compose up --build` <br>
