@@ -4,7 +4,6 @@ This is accomplished with a Python script utilizing the `psutil` library
 The information will be displayed in the CLI <br>
 <br>
 
-##Steps:
 
 ## Running the script:
 *Requires Python installed <br>
@@ -19,6 +18,8 @@ If Python and Pip are not installed <br>
 `sudo apt update` to get latest package list <br>
 `sudo apt install python 3` to install Python3
 `sudo apt install python3-pip` to install Pip
+
+
 
 
 ## Testing in Container
