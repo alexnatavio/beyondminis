@@ -16,9 +16,9 @@ change working directory to 02-SystemHealthInfo\scripts <br>
 
 If Python and Pip are not installed <br>
 `sudo apt update` to get latest package list <br>
-`sudo apt install python 3` to install Python3
-`sudo apt install python3-pip` to install Pip
-
+`sudo apt install python 3` to install Python3 <br>
+`sudo apt install python3-pip` to install Pip <br>
+<br>
 
 
 
