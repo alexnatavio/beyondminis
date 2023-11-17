@@ -1,7 +1,6 @@
 # About:
 This second mini-project is designed to display system health information, specifically CPU usage, memory usage, disk usage, active users, and active processes.
-This is accomplished with a Python script utilizing the `psutil` library
-The information will be displayed in the CLI <br>
+This is accomplished with a Python script utilizing the `psutil` library and displaying the information in the CLI <br>
 <br>
 
 
