@@ -7,8 +7,8 @@ RUN apt-get update && apt-get install -y python3 python3-psutil
 # Set the working directory
 WORKDIR /app
 
-# Copy your Python scripts from the host to the container's working directory
+# Copy scripts from host to the container working directory
 COPY scripts/ ./
 
-# Run your Python script
+# Run the script
 CMD ["python3", "SystemHealth.py"]
