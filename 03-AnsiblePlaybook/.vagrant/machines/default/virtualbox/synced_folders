@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/Playbooks/":{"guestpath":"/home/vagrant/Playbooks","hostpath":"C:/Users/Alex/VirtualBox VMs/03-AnsiblePlaybook_default_1699839297311_88761/Playbooks","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/Alex/Desktop/personal-projects/beyondminis/03-AnsiblePlaybook","disabled":false,"__vagrantfile":true}}}

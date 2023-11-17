@@ -1,0 +1,68 @@
+---
+- name: Install and configure Docker on Debian bookworm
+  hosts: servers
+  become: true
+  vars:
+    ansible_user: "vagrant"
+
+  tasks:
+    - name: Update apt package cache
+      apt:
+        update_cache: yes
+
+    - name: Install required packages
+      apt:
+        name:
+          - apt-transport-https
+          - ca-certificates
+          - curl
+          - gnupg
+          - lsb-release
+          - python3-full
+          - python3-pip
+          - ansible
+
+    - name: Add Docker GPG key
+      apt_key:
+        url: https://download.docker.com/linux/debian/gpg
+        state: present
+
+    - name: Add Docker APT repository
+      apt_repository:
+        repo: "deb [arch=amd64] https://download.docker.com/linux/debian {{ ansible_distribution_release }} stable"
+
+    - name: Update apt package cache again
+      apt:
+        update_cache: yes
+
+    - name: Install Docker
+      apt:
+        name: docker-ce
+        state: present
+
+    - name: Start Docker service
+      service:
+        name: docker
+        state: started
+
+    - name: Add user to the docker group
+      user:
+        name: "{{ ansible_user }}"
+        append: yes
+        groups: docker
+
+    - name: Install Docker Compose using APT
+      apt:
+        name: docker-compose
+        state: present
+
+    - name: Ensure Docker Compose is executable
+      file:
+        path: /usr/bin/docker-compose
+        mode: +x
+
+    - name: Ensure Docker service is enabled and running
+      systemd:
+        name: docker
+        state: started
+        enabled: yes
