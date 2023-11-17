@@ -4,7 +4,7 @@ This is accomplished with a Python script utilizing the `psutil` library
 The information will be displayed in the CLI <br>
 <br>
 
-#Steps:
+##Steps:
 
 ## Running the script:
 *Requires Python installed <br>
