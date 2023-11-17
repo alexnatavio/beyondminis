@@ -1,4 +1,5 @@
 # Beyond Minis
 Mini projects created as a skills assessment.
 
-Each mini-project has its own ReadMe file delineating execution.
+Please clone the main directory that houses the 3 subdirectories, then follow the respective ReadMe to each project for proper instructions <br>
+Thank you <br>
