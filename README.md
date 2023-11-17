@@ -1,4 +1,4 @@
 # Beyond Minis
-Mini projects for a skill assessment interview.
+Mini projects created as a skills assessment.
 
-Each one has its own ReadMe file delineating execution.
+Each mini-project has its own ReadMe file delineating execution.
